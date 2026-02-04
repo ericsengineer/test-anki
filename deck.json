@@ -6,6 +6,8 @@
       "name": "NLP::Module 2",
       "crowdanki_uuid": "nlp-m2-subdeck-uuid",
       "deck_config_uuid": "nlp-default-config-uuid",
+      "children": [],
+      "media_files": [],
       "notes": [
         { "__type__": "Note", "fields": ["{{c1::Marginalization}} (Summing Out) is the process of getting $P(A)$ from a joint table $P(A, B)$ by summing across all values of $B$.", "Concept Check: Use this when you want to 'remove' a Hidden Variable."], "guid": "nlp_m2_001", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Module2", "Probability"] },
         { "__type__": "Note", "fields": ["The {{c1::Product Rule}} (General Law) states that $P(A, B) = {{c2::P(A|B)P(B)}}$.", "Works for all events, even dependent ones. Do not confuse with Independence ($P(A)P(B)$)."], "guid": "nlp_m2_002", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Module2", "Probability"] },
@@ -17,6 +19,8 @@
       "name": "NLP::Module 3",
       "crowdanki_uuid": "nlp-m3-subdeck-uuid",
       "deck_config_uuid": "nlp-default-config-uuid",
+      "children": [],
+      "media_files": [],
       "notes": [
         { "__type__": "Note", "fields": ["{{c1::Bag of Words (BoW)}} represents text as a vector of word counts where vector size always equals {{c2::Vocabulary Size ($V$)}}.", "Crucial Property: It destroys Word Order ('Dog bites man' = 'Man bites dog')."], "guid": "nlp_m3_001", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Module3", "Classification"] },
         { "__type__": "Note", "fields": ["Naïve Bayes 'Naïve' Assumption: Words are {{c1::independent}} given the {{c2::label}}.", "Math Fix: We sum logs ($\\sum \\log P$) instead of multiplying probabilities to prevent underflow."], "guid": "nlp_m3_002", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Module3", "Naive-Bayes"] },
@@ -28,10 +32,16 @@
       "name": "NLP::Module 4",
       "crowdanki_uuid": "nlp-m4-subdeck-uuid",
       "deck_config_uuid": "nlp-default-config-uuid",
+      "children": [],
+      "media_files": [],
       "notes": [
         { "__type__": "Note", "fields": ["{{c1::One-Hot Vector}}: A vector of vocabulary size where one bit is 1 and all others are 0.", "Used for input, but huge and sparse."], "guid": "nlp_m4_001", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] },
         { "__type__": "Note", "fields": ["A {{c1::Token}} is the integer index of a word in the vocabulary.", "Tokens are inputs for Embedding Layers; One-hots are inputs for Linear Layers."], "guid": "nlp_m4_002", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] },
-        { "__type__": "Note", "fields": ["The {{c1::Hidden State}} acts as a bottleneck, forcing the network to learn {{c2::generalizations}}.", "Synonyms: History, Context Vector."], "guid": "nlp_m4_003", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Architecture"] }
+        { "__type__": "Note", "fields": ["The {{c1::Hidden State}} acts as a bottleneck, forcing the network to learn {{c2::generalizations}}.", "Synonyms: History, Context Vector."], "guid": "nlp_m4_003", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Architecture"] },
+        { "__type__": "Note", "fields": ["The {{c1::Encoder}} compresses the input into a Hidden State; the {{c2::Decoder}} expands it back to vocabulary size.", "Process Flow: One-Hot -> Linear -> Hidden State -> Linear -> Logits."], "guid": "nlp_m4_004", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Encoder-Decoder"] },
+        { "__type__": "Note", "fields": ["In an RNN, the inputs at time $t$ are the {{c1::current word}} and the {{c2::Hidden State from time $t-1$}}.", "These are concatenated before passing through a Linear Layer."], "guid": "nlp_m4_007", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "RNN"] },
+        { "__type__": "Note", "fields": ["{{c1::Temperature ($T$)}} controls risk in sampling: Low $T$ makes the distribution a {{c2::spike}}.", "$T=1$ leaves the distribution unchanged."], "guid": "nlp_m4_009", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Generation"] },
+        { "__type__": "Note", "fields": ["The {{c1::Packing Problem}}: As sequences get longer, old information in the fixed-size hidden state is overwritten.", "This limitation directly leads to the use of LSTMs."], "guid": "nlp_m4_014", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Evolution"] }
       ]
     }
   ],
@@ -46,7 +56,7 @@
       "rev": { "perDay": 100, "ease4": 1.3, "fuzz": 0.05, "maxIvl": 36500, "bury": true, "minSpace": 1, "ivlFct": 1.0 }
     }
   ],
-  "desc": "NLP Sub-divided by Modules",
+  "desc": "NLP Exam Prep: Foundations, Classification, and Neural Models",
   "media_files": [],
   "name": "NLP",
   "note_models": [
