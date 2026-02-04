@@ -85,9 +85,6 @@
       "req": [[0, "all", [0]]]
     }
   ],
-<<<<<<< HEAD
-  "notes": []
-=======
   "notes": [
     { "__type__": "Note", "fields": ["{{c1::One-Hot Vector}}: A vector of vocabulary size where one bit is 1 and all others are 0.", "Used for input, but huge and sparse."], "guid": "nlp_m4_001", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] },
     { "__type__": "Note", "fields": ["A {{c1::Token}} is the integer index of a word in the vocabulary.", "Tokens are inputs for Embedding Layers; One-hots are inputs for Linear Layers."], "guid": "nlp_m4_002", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] },
@@ -122,5 +119,4 @@
     { "__type__": "Note", "fields": ["**Subword Tokenization** avoids the {{c1::Out of Vocabulary (UNK)}} problem by breaking rare words into common chunks (e.g., prefixes/suffixes).", "Best balance between vocab size and sequence length."], "guid": "nlp_m4_070", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] },
     { "__type__": "Note", "fields": ["**Character-level** models have a very small vocabulary but require the LSTM to learn to {{c1::spell}}.", "This puts high stress on the model's memory."], "guid": "nlp_m4_071", "note_model_uuid": "cloze-model-nlp-uuid", "tags": ["NLP", "Vocab"] }
   ]
->>>>>>> c4ee771 (add NLP flashcards for LSTM, Seq2Seq, and Attention)
 }
