@@ -78,4 +78,8 @@
     { "__type__": "Note", "fields": ["{{c1::Prototype}} concepts: base concepts defined by a typical example with overridable properties.", "Lesson 11"], "guid": "kbai_11_2", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson11"] },
     { "__type__": "Note", "fields": ["AND (∧): true only if {{c1::both}} operands are true.", "Lesson 12"], "guid": "kbai_12_1", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12"] },
     { "__type__": "Note", "fields": ["IMPLIES (⇒): A ⇒ B is false only when A is {{c1::true}} and B is {{c2::false}}.", "Lesson 12"], "guid": "kbai_12_2", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12"] },
-    { "__type__": "Note", "fields": ["De Morgan's Law: ¬(A ∧ B) ≡ {{c1::¬A ∨ ¬B}}.", "Lesson
+    { "__type__": "Note", "fields": ["De Morgan's Law: ¬(A ∧ B) ≡ {{c1::¬A ∨ ¬B}}.", "Lesson 12"], "guid": "kbai_12_3", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12"] },
+    { "__type__": "Note", "fields": ["Resolution theorem proving: assume {{c1::negation}} of goal, derive {{c2::contradiction}}.", "Lesson 12"], "guid": "kbai_12_4", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12"] },
+    { "__type__": "Note", "fields": ["[EXAM] {{c1::Abduction}}: Rule + Effect → Cause.", "Exam Prep"], "guid": "kbai_ex_1", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Exam-Content"] }
+  ]
+}
