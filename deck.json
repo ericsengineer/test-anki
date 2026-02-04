@@ -1,0 +1,1030 @@
+{
+  "notes": [
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Conundrums"],
+      "fields": {
+        "Text": "Conundrum: Intelligent agents have {{c1::limited resources}}.",
+        "Extra": "Lesson 01 - Fundamental Conundrums of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Conundrums"],
+      "fields": {
+        "Text": "Conundrum: Computation is {{c1::local}}, but problems have {{c2::global constraints}}.",
+        "Extra": "Lesson 01 - Fundamental Conundrums of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Conundrums"],
+      "fields": {
+        "Text": "Conundrum: Logic is {{c1::deductive}}, but many problems are {{c2::not}}.",
+        "Extra": "Lesson 01 - Fundamental Conundrums of AI (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Conundrums"],
+      "fields": {
+        "Text": "Conundrum: The world is {{c1::dynamic}}, but knowledge is {{c2::limited}}.",
+        "Extra": "Lesson 01 - Fundamental Conundrums of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Conundrums"],
+      "fields": {
+        "Text": "Conundrum: Problem solving, reasoning, and learning are complex, but {{c1::explanation and justification}} are even more complex.",
+        "Extra": "Lesson 01 - Fundamental Conundrums of AI (5th conundrum)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: Knowledge often arrives {{c1::incrementally}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: Problems exhibit {{c1::recurring patterns}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: Problems have {{c1::multiple levels of granularity}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: Many problems are {{c1::computationally intractable}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: The world is {{c1::dynamic}}, but knowledge of the world is {{c2::static}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Problems"],
+      "fields": {
+        "Text": "AI Problems: The world is {{c1::open-ended}}, but knowledge is {{c2::limited}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Problems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Agents"],
+      "fields": {
+        "Text": "AI Agents: Agents have limited {{c1::computing power}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Agents"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Agents"],
+      "fields": {
+        "Text": "AI Agents: Agents have limited {{c1::sensors}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Agents"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Agents"],
+      "fields": {
+        "Text": "AI Agents: Agents have limited {{c1::attention}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Agents"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Agents"],
+      "fields": {
+        "Text": "AI Agents: Computational logic is fundamentally {{c1::deductive}}.",
+        "Extra": "Lesson 01 - Characteristics of AI Agents"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "AI-Agents"],
+      "fields": {
+        "Text": "AI Agents: AI agents' knowledge is {{c1::incomplete}} relative to the world.",
+        "Extra": "Lesson 01 - Characteristics of AI Agents"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Four-Schools"],
+      "fields": {
+        "Text": "The four schools of AI are defined by two axes: {{c1::thinking vs. acting}} and {{c2::optimally vs. like humans}}.",
+        "Extra": "Lesson 01 - Four Schools of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Four-Schools"],
+      "fields": {
+        "Text": "Think optimally examples: {{c1::semantic web}}, {{c2::machine learning}}.",
+        "Extra": "Lesson 01 - Four Schools of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Four-Schools"],
+      "fields": {
+        "Text": "Act optimally example: {{c1::airplane autopilot}}.",
+        "Extra": "Lesson 01 - Four Schools of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Four-Schools"],
+      "fields": {
+        "Text": "Act like humans example: {{c1::improvisational robots}}.",
+        "Extra": "Lesson 01 - Four Schools of AI"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Cognitive-Systems"],
+      "fields": {
+        "Text": "Cognitive Systems: Systems that exhibit {{c1::human-like intelligence}} through processes like learning, reasoning, and memory.",
+        "Extra": "Lesson 01 - Cognitive Systems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Cognitive-Systems"],
+      "fields": {
+        "Text": "Three layers of cognitive architecture: {{c1::Metacognition}}, {{c2::Deliberation}}, {{c3::Reaction}}.",
+        "Extra": "Lesson 01 - Cognitive Systems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson01", "Cognitive-Systems"],
+      "fields": {
+        "Text": "Deliberation contains: {{c1::Reasoning}}, {{c2::Learning}}, {{c3::Memory}}.",
+        "Extra": "Lesson 01 - Cognitive Systems"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Ravens"],
+      "fields": {
+        "Text": "Raven's Progressive Matrices: Test written in the {{c1::1930s}} to examine {{c2::general intelligence}}.",
+        "Extra": "Lesson 02 - Raven's Progressive Matrices"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Ravens"],
+      "fields": {
+        "Text": "Raven's matrices are unique in that problems are strictly {{c1::visual}}.",
+        "Extra": "Lesson 02 - Raven's Progressive Matrices"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Ravens"],
+      "fields": {
+        "Text": "Three types of Raven's problems: {{c1::2x1}}, {{c2::2x2}}, {{c3::3x3}}.",
+        "Extra": "Lesson 02 - Raven's Progressive Matrices"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 1: KBAI agents represent {{c1::and organize}} knowledge into knowledge structures to guide {{c2::and support}} reasoning.",
+        "Extra": "Lesson 02 - 7 Principles (CORRECTED - exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 2: Learning in KBAI agents is often {{c1::incremental}}.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 3: Reasoning in KBAI agents is {{c1::top-down}} as well as {{c2::bottom-up}}.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 4: KBAI agents {{c1::match methods to tasks}}.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 5: KBAI agents use {{c1::heuristics}} to find solutions that are {{c2::good enough}}, though not necessarily optimal.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 6: KBAI agents make use of {{c1::recurring patterns}} in the problems they solve.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson02", "Principles"],
+      "fields": {
+        "Text": "Principle 7: The architecture of KBAI agents enables {{c1::reasoning}}, {{c2::learning}}, and {{c3::memory}} to support and constrain each other.",
+        "Extra": "Lesson 02 - 7 Principles"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Semantic-Networks"],
+      "fields": {
+        "Text": "Semantic network: {{c1::nodes}} represent concepts, {{c2::directional links}} represent relationships.",
+        "Extra": "Lesson 03 - Semantic Networks"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Semantic-Networks"],
+      "fields": {
+        "Text": "Semantic network structure: Lexically = {{c1::nodes}}, Structurally = {{c2::directional links}}, Semantically = {{c3::application-specific labels}}.",
+        "Extra": "Lesson 03 - Semantic Networks"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Representations"],
+      "fields": {
+        "Text": "Good representations make {{c1::relationships explicit}}.",
+        "Extra": "Lesson 03 - Good Representations"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Representations"],
+      "fields": {
+        "Text": "Good representations expose {{c1::natural constraints}}.",
+        "Extra": "Lesson 03 - Good Representations"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Representations"],
+      "fields": {
+        "Text": "Good representations bring {{c1::objects and relations}} together.",
+        "Extra": "Lesson 03 - Good Representations"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Representations"],
+      "fields": {
+        "Text": "Good representations exclude {{c1::extraneous details}}.",
+        "Extra": "Lesson 03 - Good Representations"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Representations"],
+      "fields": {
+        "Text": "Good representations are: transparent, concise, complete, {{c1::fast}}, {{c2::computable}}.",
+        "Extra": "Lesson 03 - Good Representations"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Guards-Prisoners"],
+      "fields": {
+        "Text": "Guards & Prisoners: boat may take only {{c1::one or two}} people at a time.",
+        "Extra": "Lesson 03 - Guards & Prisoners"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Guards-Prisoners"],
+      "fields": {
+        "Text": "Guards & Prisoners: prisoners may never {{c1::outnumber guards}} on either coast.",
+        "Extra": "Lesson 03 - Guards & Prisoners"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson03", "Guards-Prisoners"],
+      "fields": {
+        "Text": "The 3-3 Guards & Prisoners problem takes {{c1::11}} moves to solve.",
+        "Extra": "Lesson 03 - Guards & Prisoners"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson04", "Generate-Test"],
+      "fields": {
+        "Text": "Generate and Test: {{c1::generate}} possible solutions, then {{c2::test}} if they are valid.",
+        "Extra": "Lesson 04 - Generate and Test"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson04", "Generate-Test"],
+      "fields": {
+        "Text": "Good generator property: {{c1::complete}} - generates all possible solutions.",
+        "Extra": "Lesson 04 - Generate and Test"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson04", "Generate-Test"],
+      "fields": {
+        "Text": "Good generator property: {{c1::efficient}} - doesn't waste resources.",
+        "Extra": "Lesson 04 - Generate and Test"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson04", "Generate-Test"],
+      "fields": {
+        "Text": "Good generator property: {{c1::smart}} - generates likely solutions first.",
+        "Extra": "Lesson 04 - Generate and Test"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson05", "Means-Ends"],
+      "fields": {
+        "Text": "Means-ends analysis: for each operator, calculate {{c1::difference}} between new state and {{c2::goal state}}.",
+        "Extra": "Lesson 05 - Means-Ends Analysis"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson05", "Means-Ends"],
+      "fields": {
+        "Text": "Means-ends analysis: prefer state that {{c1::minimizes distance}} to goal.",
+        "Extra": "Lesson 05 - Means-Ends Analysis"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson05", "Means-Ends"],
+      "fields": {
+        "Text": "Means-ends limitation: can fail when solution requires temporarily {{c1::increasing distance}} to goal.",
+        "Extra": "Lesson 05 - Means-Ends Analysis"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson05", "Problem-Reduction"],
+      "fields": {
+        "Text": "Problem reduction: break a {{c1::hard problem}} into {{c2::easier subproblems}}.",
+        "Extra": "Lesson 05 - Problem Reduction"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Cognitive-Architecture"],
+      "fields": {
+        "Text": "Cognitive architecture maps {{c1::percepts}} to {{c2::actions}}.",
+        "Extra": "Lesson 06 - Cognitive Architectures"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Cognitive-Architecture"],
+      "fields": {
+        "Text": "Cognitive architecture formula: {{c1::Architecture}} + {{c2::Content}} = {{c3::Behavior}}.",
+        "Extra": "Lesson 06 - Cognitive Architectures"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Cognitive-Architecture"],
+      "fields": {
+        "Text": "Cognitive architecture function: f: {{c1::P*}} → {{c2::A}} (Percepts to Action).",
+        "Extra": "Lesson 06 - Cognitive Architectures"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Three-Levels"],
+      "fields": {
+        "Text": "Three levels: {{c1::Task/Knowledge Level}}, {{c2::Algorithm/Symbol Level}}, {{c3::Hardware/Implementation Level}}.",
+        "Extra": "Lesson 06 - Three Levels of Analysis"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Three-Levels"],
+      "fields": {
+        "Text": "Task/Knowledge Level examples: {{c1::selecting a pitch}}, {{c2::playing baseball}}.",
+        "Extra": "Lesson 06 - Three Levels"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Three-Levels"],
+      "fields": {
+        "Text": "Algorithm/Symbol Level examples: {{c1::means-ends analysis}}, {{c2::semantic networks}}.",
+        "Extra": "Lesson 06 - Three Levels"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Three-Levels"],
+      "fields": {
+        "Text": "Hardware/Implementation Level examples: {{c1::a brain}}, {{c2::a transistor}}.",
+        "Extra": "Lesson 06 - Three Levels"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "SOAR"],
+      "fields": {
+        "Text": "SOAR long-term memories: {{c1::Procedural}}, {{c2::Semantic}}, {{c3::Episodic}}.",
+        "Extra": "Lesson 06 - SOAR Architecture"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "SOAR"],
+      "fields": {
+        "Text": "Procedural memory stores {{c1::how to do things}} (production rules).",
+        "Extra": "Lesson 06 - SOAR Memory Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "SOAR"],
+      "fields": {
+        "Text": "Semantic memory stores {{c1::facts about the world}}.",
+        "Extra": "Lesson 06 - SOAR Memory Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "SOAR"],
+      "fields": {
+        "Text": "Episodic memory stores {{c1::specific experiences}}.",
+        "Extra": "Lesson 06 - SOAR Memory Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Production-Rules"],
+      "fields": {
+        "Text": "Production rule format: IF {{c1::conditions}} THEN {{c2::actions}}.",
+        "Extra": "Lesson 06 - Production Rules"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson06", "Chunking"],
+      "fields": {
+        "Text": "Chunking: creates a new {{c1::production rule}} from experience to resolve impasses faster.",
+        "Extra": "Lesson 06 - Learning in SOAR"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson07", "Frames"],
+      "fields": {
+        "Text": "Frame: represents a {{c1::stereotyped situation}} with slots for expected information.",
+        "Extra": "Lesson 07 - Frames"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson07", "Frames"],
+      "fields": {
+        "Text": "Frame property 1: Frames represent {{c1::stereotypes}}.",
+        "Extra": "Lesson 07 - Properties of Frames"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson07", "Frames"],
+      "fields": {
+        "Text": "Frame property 2: Frames provide {{c1::default values}}.",
+        "Extra": "Lesson 07 - Properties of Frames"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson07", "Frames"],
+      "fields": {
+        "Text": "Frame property 3: Frames exhibit {{c1::inheritance}}.",
+        "Extra": "Lesson 07 - Properties of Frames"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson08", "Recording-Cases"],
+      "fields": {
+        "Text": "Learning by recording cases: store {{c1::problem-solution pairs}}, retrieve most {{c2::similar}} case.",
+        "Extra": "Lesson 08 - Learning by Recording Cases"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson08", "Recording-Cases"],
+      "fields": {
+        "Text": "Nearest neighbor: find most similar case by calculating {{c1::distance}} in feature space.",
+        "Extra": "Lesson 08 - Nearest Neighbor"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson08", "Recording-Cases"],
+      "fields": {
+        "Text": "k-Nearest Neighbor: consider {{c1::k closest}} cases, use {{c2::majority voting}} or averaging.",
+        "Extra": "Lesson 08 - k-NN"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson08", "Recording-Cases"],
+      "fields": {
+        "Text": "Case-based assumption: {{c1::Patterns exist}} in the world.",
+        "Extra": "Lesson 08 - Assumptions"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson08", "Recording-Cases"],
+      "fields": {
+        "Text": "Case-based assumption: {{c1::Similar problems}} have {{c2::similar solutions}}.",
+        "Extra": "Lesson 08 - Assumptions"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson09", "CBR"],
+      "fields": {
+        "Text": "CBR Stage 1 - {{c1::Retrieval}}: retrieving a case from memory similar to current problem.",
+        "Extra": "Lesson 09 - CBR (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson09", "CBR"],
+      "fields": {
+        "Text": "CBR Stage 2 - {{c1::Adaptation}}: adapting the solution to that case to fit current problem.",
+        "Extra": "Lesson 09 - CBR (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson09", "CBR"],
+      "fields": {
+        "Text": "CBR Stage 3 - {{c1::Evaluation}}: evaluating how well adapted solution addresses current problem.",
+        "Extra": "Lesson 09 - CBR (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson09", "CBR"],
+      "fields": {
+        "Text": "CBR Stage 4 - {{c1::Storage}}: storing the new problem and solution as a case.",
+        "Extra": "Lesson 09 - CBR (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson09", "CBR"],
+      "fields": {
+        "Text": "Discrimination tree: organizes cases by asking {{c1::questions about features}}.",
+        "Extra": "Lesson 09 - Case Storage"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "ICL"],
+      "fields": {
+        "Text": "Incremental concept learning: learns concepts {{c1::one example at a time}}.",
+        "Extra": "Lesson 10 - ICL"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "ICL"],
+      "fields": {
+        "Text": "Positive example doesn't fit current concept → {{c1::generalize}}.",
+        "Extra": "Lesson 10 - ICL Logic"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "ICL"],
+      "fields": {
+        "Text": "Negative example fits current concept → {{c1::specialize}}.",
+        "Extra": "Lesson 10 - ICL Logic"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::require-link}}: link must be present to be a positive example of the concept.",
+        "Extra": "Lesson 10 - Specialization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::forbid-link}}: link must be absent to be a positive example of the concept.",
+        "Extra": "Lesson 10 - Specialization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::drop-link}}: link is not necessary to be a positive example of the concept.",
+        "Extra": "Lesson 10 - Generalization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::enlarge-set}}: multiple objects or links may fit one role in the concept.",
+        "Extra": "Lesson 10 - Generalization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::climb-tree}}: generalize over multiple objects in the same role based on knowledge.",
+        "Extra": "Lesson 10 - Generalization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson10", "Heuristics"],
+      "fields": {
+        "Text": "{{c1::close-interval}}: expand range of values to be a positive example of the concept.",
+        "Extra": "Lesson 10 - Generalization Heuristic (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Classification"],
+      "fields": {
+        "Text": "Classification: maps percepts into {{c1::equivalence classes}}.",
+        "Extra": "Lesson 11 - Classification"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "{{c1::Axiomatic}} concepts: defined by a formal set of necessary and sufficient conditions.",
+        "Extra": "Lesson 11 - Concept Types (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "Axiomatic example: {{c1::circle}} - all points in a plane equidistant from a single point.",
+        "Extra": "Lesson 11 - Concept Types (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "{{c1::Prototype}} concepts: base concepts defined by a typical example with overridable properties.",
+        "Extra": "Lesson 11 - Concept Types (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "Prototype example: {{c1::chair}}.",
+        "Extra": "Lesson 11 - Concept Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "{{c1::Exemplar}} concepts: defined by implicit abstractions of instances, or exemplars, of the concept.",
+        "Extra": "Lesson 11 - Concept Types (exact slide wording)"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "Exemplar example: {{c1::beauty}}.",
+        "Extra": "Lesson 11 - Concept Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson11", "Concept-Types"],
+      "fields": {
+        "Text": "Formality ranking (most to least): {{c1::Axiomatic}} → {{c2::Prototype}} → {{c3::Exemplar}}.",
+        "Extra": "Lesson 11 - Concept Types"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Logic"],
+      "fields": {
+        "Text": "{{c1::Soundness}}: only valid conclusions can be proven.",
+        "Extra": "Lesson 12 - Logic"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Logic"],
+      "fields": {
+        "Text": "{{c1::Completeness}}: all valid conclusions can be proven.",
+        "Extra": "Lesson 12 - Logic"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Operators"],
+      "fields": {
+        "Text": "AND (∧): true only if {{c1::both}} operands are true.",
+        "Extra": "Lesson 12 - Logical Operators"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Operators"],
+      "fields": {
+        "Text": "OR (∨): true if {{c1::at least one}} operand is true.",
+        "Extra": "Lesson 12 - Logical Operators"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Operators"],
+      "fields": {
+        "Text": "NOT (¬): returns the {{c1::opposite}} truth value.",
+        "Extra": "Lesson 12 - Logical Operators"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Operators"],
+      "fields": {
+        "Text": "IMPLIES (⇒): A ⇒ B is false only when A is {{c1::true}} and B is {{c2::false}}.",
+        "Extra": "Lesson 12 - Logical Operators"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Implication"],
+      "fields": {
+        "Text": "Implication elimination: A ⇒ B becomes {{c1::¬A ∨ B}}.",
+        "Extra": "Lesson 12 - Implication Elimination"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Inference"],
+      "fields": {
+        "Text": "Modus Ponens: p ⇒ q, {{c1::p}} ∴ {{c2::q}}.",
+        "Extra": "Lesson 12 - Rules of Inference"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Inference"],
+      "fields": {
+        "Text": "Modus Tollens: p ⇒ q, {{c1::¬q}} ∴ {{c2::¬p}}.",
+        "Extra": "Lesson 12 - Rules of Inference"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "DeMorgan"],
+      "fields": {
+        "Text": "De Morgan's Law: ¬(A ∧ B) ≡ {{c1::¬A ∨ ¬B}}.",
+        "Extra": "Lesson 12 - De Morgan's Law"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "DeMorgan"],
+      "fields": {
+        "Text": "De Morgan's Law: ¬(A ∨ B) ≡ {{c1::¬A ∧ ¬B}}.",
+        "Extra": "Lesson 12 - De Morgan's Law"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Quantifiers"],
+      "fields": {
+        "Text": "Universal quantifier (∀): for {{c1::all}} x.",
+        "Extra": "Lesson 12 - Quantifiers"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Quantifiers"],
+      "fields": {
+        "Text": "Existential quantifier (∃): there exists {{c1::at least one}} x.",
+        "Extra": "Lesson 12 - Quantifiers"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Resolution"],
+      "fields": {
+        "Text": "Resolution theorem proving: assume {{c1::negation}} of goal, derive {{c2::contradiction}}.",
+        "Extra": "Lesson 12 - Resolution"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Lesson12", "Resolution"],
+      "fields": {
+        "Text": "Conjunctive Normal Form (CNF): {{c1::conjunction (AND)}} of {{c2::disjunctions (ORs)}}.",
+        "Extra": "Lesson 12 - CNF"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Exam-Content", "STRIPS"],
+      "fields": {
+        "Text": "[EXAM] STRIPS operator: {{c1::Precondition}} (what must be true) and {{c2::Postcondition}} (what becomes true).",
+        "Extra": "From Spring 2015 Midterm - NOT in lecture slides"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Exam-Content", "Reasoning-Types"],
+      "fields": {
+        "Text": "[EXAM] {{c1::Deduction}}: Rule + Cause → Effect.",
+        "Extra": "From Spring 2015 Final Q4 - NOT in lecture slides"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Exam-Content", "Reasoning-Types"],
+      "fields": {
+        "Text": "[EXAM] {{c1::Induction}}: Cause + Effect → Rule.",
+        "Extra": "From Spring 2015 Final Q4 - NOT in lecture slides"
+      }
+    },
+    {
+      "deckName": "CS7637 KBAI Exam 1",
+      "modelName": "Cloze",
+      "tags": ["KBAI", "Exam-Content", "Reasoning-Types"],
+      "fields": {
+        "Text": "[EXAM] {{c1::Abduction}}: Rule + Effect → Cause.",
+        "Extra": "From Spring 2015 Final Q4 - NOT in lecture slides"
+      }
+    }
+  ]
+}
