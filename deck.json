@@ -1,15 +1,15 @@
 {
   "__type__": "Deck",
   "children": [],
-  "crowdanki_uuid": "f2e8b1a0-6c5d-4e3f-a1b2-c3d4e5f6g7h8",
-  "deck_config_uuid": "a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d",
+  "crowdanki_uuid": "kbai-exam1-deck-uuid-2026",
+  "deck_config_uuid": "kbai-default-config-uuid",
   "deck_configurations": [
     {
       "__type__": "DeckConfig",
-      "crowdanki_uuid": "a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d",
-      "name": "KBAI Default Config",
-      "new": { "perDay": 20 },
-      "rev": { "perDay": 200 }
+      "crowdanki_uuid": "kbai-default-config-uuid",
+      "name": "KBAI Default",
+      "new": { "perDay": 20, "delays": [1, 10], "ints": [1, 4, 7], "initialFactor": 2500 },
+      "rev": { "perDay": 100, "ease4": 1.3, "fuzz": 0.05, "maxIvl": 36500 }
     }
   ],
   "desc": "CS7637 Knowledge-Based AI Exam 1 Prep",
@@ -18,16 +18,18 @@
   "note_models": [
     {
       "__type__": "NoteModel",
-      "crowdanki_uuid": "cloze-model-uuid-kbai",
-      "flds": [
-        { "name": "Text", "ord": 0 },
-        { "name": "Extra", "ord": 1 }
-      ],
+      "crowdanki_uuid": "cloze-model-kbai-uuid",
       "name": "Cloze",
       "type": 1,
+      "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n.cloze {\n font-weight: bold;\n color: blue;\n}",
+      "flds": [
+        { "name": "Text", "ord": 0, "font": "Arial", "size": 20 },
+        { "name": "Extra", "ord": 1, "font": "Arial", "size": 20 }
+      ],
       "tmpls": [
         {
           "name": "Cloze",
+          "ord": 0,
           "qfmt": "{{cloze:Text}}",
           "afmt": "{{cloze:Text}}<br><hr id=answer>{{Extra}}"
         }
@@ -35,50 +37,26 @@
     }
   ],
   "notes": [
-    { "__type__": "Note", "fields": ["Conundrum: Intelligent agents have {{c1::limited resources}}.", "Lesson 01 - Fundamental Conundrums of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Conundrums"] },
-    { "__type__": "Note", "fields": ["Conundrum: Computation is {{c1::local}}, but problems have {{c2::global constraints}}.", "Lesson 01 - Fundamental Conundrums of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Conundrums"] },
-    { "__type__": "Note", "fields": ["Conundrum: Logic is {{c1::deductive}}, but many problems are {{c2::not}}.", "Lesson 01 - Fundamental Conundrums of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Conundrums"] },
-    { "__type__": "Note", "fields": ["Conundrum: The world is {{c1::dynamic}}, but knowledge is {{c2::limited}}.", "Lesson 01 - Fundamental Conundrums of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Conundrums"] },
-    { "__type__": "Note", "fields": ["Conundrum: Problem solving, reasoning, and learning are complex, but {{c1::explanation and justification}} are even more complex.", "Lesson 01 - Fundamental Conundrums of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Conundrums"] },
-    { "__type__": "Note", "fields": ["AI Problems: Knowledge often arrives {{c1::incrementally}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Problems: Problems exhibit {{c1::recurring patterns}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Problems: Problems have {{c1::multiple levels of granularity}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Problems: Many problems are {{c1::computationally intractable}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Problems: The world is {{c1::dynamic}}, but knowledge of the world is {{c2::static}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Problems: The world is {{c1::open-ended}}, but knowledge is {{c2::limited}}.", "Lesson 01 - Characteristics of AI Problems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
-    { "__type__": "Note", "fields": ["AI Agents: Agents have limited {{c1::computing power}}.", "Lesson 01 - Characteristics of AI Agents"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
-    { "__type__": "Note", "fields": ["AI Agents: Agents have limited {{c1::sensors}}.", "Lesson 01 - Characteristics of AI Agents"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
-    { "__type__": "Note", "fields": ["AI Agents: Agents have limited {{c1::attention}}.", "Lesson 01 - Characteristics of AI Agents"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
-    { "__type__": "Note", "fields": ["AI Agents: Computational logic is fundamentally {{c1::deductive}}.", "Lesson 01 - Characteristics of AI Agents"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
-    { "__type__": "Note", "fields": ["AI Agents: AI agents' knowledge is {{c1::incomplete}} relative to the world.", "Lesson 01 - Characteristics of AI Agents"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
-    { "__type__": "Note", "fields": ["The four schools of AI are defined by two axes: {{c1::thinking vs. acting}} and {{c2::optimally vs. like humans}}.", "Lesson 01 - Four Schools of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Four-Schools"] },
-    { "__type__": "Note", "fields": ["Think optimally examples: {{c1::semantic web}}, {{c2::machine learning}}.", "Lesson 01 - Four Schools of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Four-Schools"] },
-    { "__type__": "Note", "fields": ["Act optimally example: {{c1::airplane autopilot}}.", "Lesson 01 - Four Schools of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Four-Schools"] },
-    { "__type__": "Note", "fields": ["Act like humans example: {{c1::improvisational robots}}.", "Lesson 01 - Four Schools of AI"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Four-Schools"] },
-    { "__type__": "Note", "fields": ["Cognitive Systems: Systems that exhibit {{c1::human-like intelligence}} through processes like learning, reasoning, and memory.", "Lesson 01 - Cognitive Systems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Cognitive-Systems"] },
-    { "__type__": "Note", "fields": ["Three layers of cognitive architecture: {{c1::Metacognition}}, {{c2::Deliberation}}, {{c3::Reaction}}.", "Lesson 01 - Cognitive Systems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Cognitive-Systems"] },
-    { "__type__": "Note", "fields": ["Deliberation contains: {{c1::Reasoning}}, {{c2::Learning}}, {{c3::Memory}}.", "Lesson 01 - Cognitive Systems"], "model_name": "Cloze", "tags": ["KBAI", "Lesson01", "Cognitive-Systems"] },
-    { "__type__": "Note", "fields": ["Raven's Progressive Matrices: Test written in the {{c1::1930s}} to examine {{c2::general intelligence}}.", "Lesson 02 - Raven's Progressive Matrices"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Ravens"] },
-    { "__type__": "Note", "fields": ["Raven's matrices are unique in that problems are strictly {{c1::visual}}.", "Lesson 02 - Raven's Progressive Matrices"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Ravens"] },
-    { "__type__": "Note", "fields": ["Three types of Raven's problems: {{c1::2x1}}, {{c2::2x2}}, {{c3::3x3}}.", "Lesson 02 - Raven's Progressive Matrices"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Ravens"] },
-    { "__type__": "Note", "fields": ["Principle 1: KBAI agents represent {{c1::and organize}} knowledge into knowledge structures.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 2: Learning in KBAI agents is often {{c1::incremental}}.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 3: Reasoning in KBAI agents is {{c1::top-down}} as well as {{c2::bottom-up}}.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 4: KBAI agents {{c1::match methods to tasks}}.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 5: KBAI agents use {{c1::heuristics}} to find solutions that are {{c2::good enough}}.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 6: KBAI agents make use of {{c1::recurring patterns}}.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Principle 7: The architecture enables {{c1::reasoning}}, {{c2::learning}}, and {{c3::memory}} to support each other.", "Lesson 02 - 7 Principles"], "model_name": "Cloze", "tags": ["KBAI", "Lesson02", "Principles"] },
-    { "__type__": "Note", "fields": ["Semantic network: {{c1::nodes}} represent concepts, {{c2::directional links}} represent relationships.", "Lesson 03 - Semantic Networks"], "model_name": "Cloze", "tags": ["KBAI", "Lesson03", "Semantic-Networks"] },
-    { "__type__": "Note", "fields": ["Semantic network structure: Lexically = {{c1::nodes}}, Structurally = {{c2::directional links}}.", "Lesson 03 - Semantic Networks"], "model_name": "Cloze", "tags": ["KBAI", "Lesson03", "Semantic-Networks"] },
-    { "__type__": "Note", "fields": ["Good representations make {{c1::relationships explicit}}.", "Lesson 03 - Good Representations"], "model_name": "Cloze", "tags": ["KBAI", "Lesson03", "Representations"] },
-    { "__type__": "Note", "fields": ["Good representations expose {{c1::natural constraints}}.", "Lesson 03 - Good Representations"], "model_name": "Cloze", "tags": ["KBAI", "Lesson03", "Representations"] },
-    { "__type__": "Note", "fields": ["The 3-3 Guards & Prisoners problem takes {{c1::11}} moves to solve.", "Lesson 03 - Guards & Prisoners"], "model_name": "Cloze", "tags": ["KBAI", "Lesson03", "Guards-Prisoners"] },
-    { "__type__": "Note", "fields": ["Generate and Test: {{c1::generate}} possible solutions, then {{c2::test}} if they are valid.", "Lesson 04 - Generate and Test"], "model_name": "Cloze", "tags": ["KBAI", "Lesson04", "Generate-Test"] },
-    { "__type__": "Note", "fields": ["Means-ends analysis: calculate {{c1::difference}} between new state and {{c2::goal state}}.", "Lesson 05 - Means-Ends Analysis"], "model_name": "Cloze", "tags": ["KBAI", "Lesson05", "Means-Ends"] },
-    { "__type__": "Note", "fields": ["Cognitive architecture formula: {{c1::Architecture}} + {{c2::Content}} = {{c3::Behavior}}.", "Lesson 06 - Cognitive Architectures"], "model_name": "Cloze", "tags": ["KBAI", "Lesson06", "Cognitive-Architecture"] },
-    { "__type__": "Note", "fields": ["Three levels: {{c1::Task/Knowledge}}, {{c2::Algorithm/Symbol}}, {{c3::Hardware/Implementation}}.", "Lesson 06 - Three Levels of Analysis"], "model_name": "Cloze", "tags": ["KBAI", "Lesson06", "Three-Levels"] },
-    { "__type__": "Note", "fields": ["SOAR long-term memories: {{c1::Procedural}}, {{c2::Semantic}}, {{c3::Episodic}}.", "Lesson 06 - SOAR Architecture"], "model_name": "Cloze", "tags": ["KBAI", "Lesson06", "SOAR"] },
-    { "__type__": "Note", "fields": ["CBR Stage 1 - {{c1::Retrieval}}: retrieving a similar case.", "Lesson 09 - CBR"], "model_name": "Cloze", "tags": ["KBAI", "Lesson09", "CBR"] },
-    { "__type__": "Note", "fields": ["[EXAM] {{c1::Abduction}}: Rule + Effect → Cause.", "Spring 2015 Final Q4"], "model_name": "Cloze", "tags": ["KBAI", "Exam-Content", "Reasoning-Types"] }
+    { "__type__": "Note", "fields": ["Conundrum: Intelligent agents have {{c1::limited resources}}.", "Lesson 01 - Fundamental Conundrums of AI"], "guid": "kbai01a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "Conundrums"] },
+    { "__type__": "Note", "fields": ["Conundrum: Computation is {{c1::local}}, but problems have {{c2::global constraints}}.", "Lesson 01 - Fundamental Conundrums of AI"], "guid": "kbai01a002", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "Conundrums"] },
+    { "__type__": "Note", "fields": ["Conundrum: Logic is {{c1::deductive}}, but many problems are {{c2::not}}.", "Lesson 01 - Fundamental Conundrums of AI"], "guid": "kbai01a003", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "Conundrums"] },
+    { "__type__": "Note", "fields": ["AI Problems: Knowledge often arrives {{c1::incrementally}}.", "Lesson 01 - Characteristics of AI Problems"], "guid": "kbai01b001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
+    { "__type__": "Note", "fields": ["AI Problems: Many problems are {{c1::computationally intractable}}.", "Lesson 01 - Characteristics of AI Problems"], "guid": "kbai01b002", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "AI-Problems"] },
+    { "__type__": "Note", "fields": ["AI Agents: Agents have limited {{c1::attention}}.", "Lesson 01 - Characteristics of AI Agents"], "guid": "kbai01c001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "AI-Agents"] },
+    { "__type__": "Note", "fields": ["Three layers of cognitive architecture: {{c1::Metacognition}}, {{c2::Deliberation}}, {{c3::Reaction}}.", "Lesson 01 - Cognitive Systems"], "guid": "kbai01d001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson01", "Cognitive-Systems"] },
+    { "__type__": "Note", "fields": ["Raven's matrices are unique in that problems are strictly {{c1::visual}}.", "Lesson 02 - Raven's Progressive Matrices"], "guid": "kbai02a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson02", "Ravens"] },
+    { "__type__": "Note", "fields": ["Principle 5: KBAI agents use {{c1::heuristics}} to find solutions that are {{c2::good enough}}.", "Lesson 02 - 7 Principles"], "guid": "kbai02b001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson02", "Principles"] },
+    { "__type__": "Note", "fields": ["Semantic network: {{c1::nodes}} represent concepts, {{c2::directional links}} represent relationships.", "Lesson 03 - Semantic Networks"], "guid": "kbai03a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson03", "Semantic-Networks"] },
+    { "__type__": "Note", "fields": ["Good representations exclude {{c1::extraneous details}}.", "Lesson 03 - Good Representations"], "guid": "kbai03b001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson03", "Representations"] },
+    { "__type__": "Note", "fields": ["Means-ends analysis: prefer state that {{c1::minimizes distance}} to goal.", "Lesson 05 - Means-Ends Analysis"], "guid": "kbai05a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson05", "Means-Ends"] },
+    { "__type__": "Note", "fields": ["Cognitive architecture formula: {{c1::Architecture}} + {{c2::Content}} = {{c3::Behavior}}.", "Lesson 06 - Cognitive Architectures"], "guid": "kbai06a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson06", "Cognitive-Architecture"] },
+    { "__type__": "Note", "fields": ["SOAR long-term memories: {{c1::Procedural}}, {{c2::Semantic}}, {{c3::Episodic}}.", "Lesson 06 - SOAR Architecture"], "guid": "kbai06b001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson06", "SOAR"] },
+    { "__type__": "Note", "fields": ["CBR Stage 1 - {{c1::Retrieval}}: retrieving a case from memory similar to current problem.", "Lesson 09 - CBR"], "guid": "kbai09a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson09", "CBR"] },
+    { "__type__": "Note", "fields": ["CBR Stage 2 - {{c1::Adaptation}}: adapting the solution to that case.", "Lesson 09 - CBR"], "guid": "kbai09a002", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson09", "CBR"] },
+    { "__type__": "Note", "fields": ["Incremental concept learning: learns concepts {{c1::one example at a time}}.", "Lesson 10 - ICL"], "guid": "kbai10a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson10", "ICL"] },
+    { "__type__": "Note", "fields": ["{{c1::Axiomatic}} concepts: defined by a formal set of necessary and sufficient conditions.", "Lesson 11 - Concept Types"], "guid": "kbai11a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson11", "Concept-Types"] },
+    { "__type__": "Note", "fields": ["{{c1::Soundness}}: only valid conclusions can be proven.", "Lesson 12 - Logic"], "guid": "kbai12a001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12", "Logic"] },
+    { "__type__": "Note", "fields": ["De Morgan's Law: ¬(A ∧ B) ≡ {{c1::¬A ∨ ¬B}}.", "Lesson 12 - De Morgan's Law"], "guid": "kbai12b001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Lesson12", "DeMorgan"] },
+    { "__type__": "Note", "fields": ["[EXAM] {{c1::Abduction}}: Rule + Effect → Cause.", "From Spring 2015 Final Q4"], "guid": "kbai_ex_001", "note_model_uuid": "cloze-model-kbai-uuid", "tags": ["KBAI", "Exam-Content", "Reasoning-Types"] }
   ]
 }
